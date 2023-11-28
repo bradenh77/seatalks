@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans&display=swap');
+
+body {
+    font-family: "Playpen Sans";
+    color: #5065A8;
+    background-color: #D3D3D3;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Agbalumo";
+    color: #5065A8;
+    text-align: center;
+}
+
+header {
+    background-color: #D3D3D3;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #7C29F2;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #5065A8;
+    color: white;
+}
+
+footer {
+    background-color: #7C29F2;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer a {
+    color:white;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: #5065A8;
+    color: white
+}

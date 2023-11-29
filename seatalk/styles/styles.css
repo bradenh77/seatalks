@@ -3,9 +3,11 @@
 body {
     font-family: "Playpen Sans";
     color: #5065A8;
-    background-color: #D3D3D3;
+    background-color: #F2EEE3;
     text-align: center;
 }
+
+
 
 h1, h2 {
     font-family: "Agbalumo";
@@ -14,13 +16,14 @@ h1, h2 {
 }
 
 header {
-    background-color: #D3D3D3;
+    background-color: #7C29F2;
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 .logo {
     margin: 0 auto;
+    border: #7C29F2;
 }
 
 nav {
@@ -38,6 +41,21 @@ nav a:hover {
     background-color: #5065A8;
     color: white;
 }
+
+main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.article {
+    background-color: #D3D3D3;
+}
+
+#art-heading {
+    margin-top: 100px;
+}
+
+
 
 footer {
     background-color: #7C29F2;

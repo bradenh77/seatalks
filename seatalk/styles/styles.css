@@ -68,11 +68,20 @@ main {
 }
 
 .article {
-    background-color: #D3D3D3;
+    margin-top: 25px;
+    background-color: #F2EEE3;
+    border: 5px solid #d3d3d3;
+    
+}
+
+.article p {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #art-heading {
-    margin-top: 100px;
+    font-size: large;
+    margin-top: 50px;
 }
 
 
